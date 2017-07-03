@@ -1,0 +1,67 @@
+.tab3{
+	margin-left: 60%;
+	width: 40%;
+}
+
+form{
+	width: 100%;
+	padding: 20px;
+}
+
+form > div{
+	margin-top: 10px;
+}
+
+.mailTo{
+	background: #d5d5d5;
+	border: 1px solid #c1c0c0;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.subject > input, .message > textarea{
+	width: 100%;
+	border: none;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	border: 1px solid #cccaca;
+}
+
+.attach-send{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.attach a{
+	text-decoration: none;
+	color: #335e84;
+}
+
+.send-mail button{
+	padding: 7px 10px;
+    background: #4e81ad;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.send-mail button:hover{
+	background: #3a6992;
+	cursor: pointer;
+}
+
+#mail-sent{
+	background: #b7d4b7;
+    color: #319e31;
+}
+
+
+@media(max-width: 768px){
+	.tab3{
+		width: 100%;
+		margin-left: 0;
+	}
+}

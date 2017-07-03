@@ -1,0 +1,44 @@
+.widget-container > nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.widget-container > nav > ul{
+	margin: 0;
+	padding: 0;
+}
+
+.widget-container > nav > ul > li{
+	display: inline-block;
+	padding: 0;
+}
+
+nav > ul > li:nth-child(3){
+	margin-right: -25px;
+}
+
+.tabs{
+	border-bottom: 40px solid #adacac;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    padding: 0 10px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 -10px;
+    position: relative;
+    text-decoration: none;
+    color: #232323;
+}
+
+.close{
+	background: #383737;
+    color: white;
+    line-height: 40px;
+    width: 50px;
+    padding-left: 20px;
+    height: 40px;
+    display: inline-block;
+    text-align: center
+}

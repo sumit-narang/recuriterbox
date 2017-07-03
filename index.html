@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>help widget</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+	<!--font used-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!--font-awesome-->
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+	
+	<!--stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/tabs.css">
+	<link rel="stylesheet" type="text/css" href="css/tab1.css">
+	<link rel="stylesheet" type="text/css" href="css/tab2.css">
+	<link rel="stylesheet" type="text/css" href="css/tab3.css">
+</head>
+<body>
+<div class="container">
+	<div class="widget-container">
+
+		<!--tabs links-->
+		<nav>
+			<ul>
+				<li >
+					<a href="#tab1" class="tabs"><i class="fa fa-comment-o" aria-hidden="true"></i> Live Chat</a>
+				</li>
+				<li >
+					<a href="#tab2" class="tabs"><i class="fa fa-search" aria-hidden="true"></i> FAQ</a>
+				</li>
+				<li >
+					<a href="#tab3" class="tabs"><i class="fa fa-envelope-o" aria-hidden="true"></i> Mail Us</a>
+				</li>
+				<li>
+					<a href="#" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+				</li>
+			</ul>
+		</nav>
+
+		<!--tab1 : live chat-->
+		<section class="tab1 tab-content">
+			<div class="chat-header">
+				chat with us
+			</div>
+			<div class="chat-query">
+				<div>Hello how may I help you?</div>
+			</div>
+			<div class="chat-box">
+				<div class="chat-msg">
+					<input type="text" name="" placeholder="Type a message">
+				</div>
+				<div class="chat-submit">
+					<button>Submit</button>
+				</div>
+			</div>
+		</section>
+
+		<!--tab2 : FAQ-->
+		<section class="tab2 tab-content">
+			<div class="mail-container">
+				<h4>Prefer Email Instead?</h4>
+				<button>
+					<i class="fa fa-envelope-o" aria-hidden="true"></i> Write to us
+				</button>
+				<p>We are super quick in responding to your queries</p>
+			</div>
+			<div class="options-container">
+				
+				<div class="inp-query-container">
+					<div class="inp-query">
+						<input type="text" name="" placeholder="What can we help you with? Start typing your question..">
+					</div>
+				</div>
+				
+				<div class="faq-option-container">
+					<a href="#" class="faq-option">
+						<i class="fa fa-folder" aria-hidden="true"></i>
+						<span>Sharing openings</span>	
+					</a>
+					<a href="#" class="faq-option">
+						<i class="fa fa-thumb-tack" aria-hidden="true"></i>
+						<span>Managing openings</span>
+					</a>
+					<a href="#" class="faq-option">
+						<i class="fa fa-file-image-o" aria-hidden="true"></i>
+						<span>Managing candidates</span>
+					</a>
+					<a href="#" class="faq-option">
+						<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+						<span>Account Mangement</span>
+					</a>
+					<a href="#" class="faq-option">
+						<i class="fa fa-folder" aria-hidden="true"></i>
+						<span>Sourcing Candidates</span>
+					</a>
+					<a href="#" class="faq-option">
+						<i class="fa fa-folder" aria-hidden="true"></i>
+						<span>Reporting</span>
+					</a>
+				</div>
+			</div>
+		</section>
+		
+		<!--tab3: Mail us-->
+		<section class="tab3 tab-content">
+			<form>
+				<div id="mail-sent"></div>
+				<div class="mailTo">
+					<strong>To:</strong>
+					<span>support@recuriterbox.com</span>
+				</div>
+				<div class="subject">
+					<input type="text" name="" placeholder="Subject">
+				</div>
+				<div class="message">
+					<textarea placeholder="Message.."></textarea>
+				</div>
+				<div class="attach-send">
+					<div class="attach">
+						<a href=""><i class="fa fa-link" aria-hidden="true"></i> Attach Files
+						</a>
+					</div>
+					<div class="send-mail">
+						<button type="submit">Send Mail</button>
+					</div>
+				</div>
+			</form>
+		</section>
+	</div>
+</div>
+<script src="tabs.js"></script>
+</body>
+</html>
